@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("images/page3.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TEXT CENTER */
+.text-box {
+  width: 60%;
+  text-align: center;
+}
+
+#finalText {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.4rem;
+  color: #5D2A7B;
+  line-height: 1.8;
+}
+
+/* IMAGES */
+.img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* CORNERS */
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.bottom-left {
+  bottom: 20px;
+  left: 20px;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}

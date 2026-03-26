@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("images/page2.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper {
+  width: 70%;
+  max-width: 800px;
+}
+
+#text {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.5rem;
+  color: #5D2A7B;
+  line-height: 1.8;
+}
+
+.continue {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  color: #5D2A7B;
+  cursor: pointer;
+}
